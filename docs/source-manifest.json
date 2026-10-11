@@ -1,0 +1,1026 @@
+{
+  "schemaVersion": 2,
+  "algorithm": "SHA256",
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 176,
+      "sha256": "9260f0ddbf03d38389fd6aec4a7e0ee579ac5f1a39cd92dae124d47fd211dc05",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 197,
+      "sha256": "73f4fc0931e79b1f2114ce11ca1e560c04190b7c02ed97e8f112d830b1a3615b",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 2223,
+      "sha256": "c6df1c590358ec3cb16527e8a41e145fcd9da56e6f1c947c4ac143f34b33dddf",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 166,
+      "sha256": "23ea5e8761788fe8f0703a8b832847645dab12e720af787191678072aa2229ba",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": ".node-version",
+      "bytes": 8,
+      "sha256": "7e8a2fa94951112b894a3dbe3d05efef5e9263741fa49125f0a70f40fedab4cc",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1130,
+      "sha256": "1fa8a77d51a79d3bb6fca33957cc838f238602ffd07dce19184952b01d55822b",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1066,
+      "sha256": "ac05298da2e53bf149e76e7f512fe8f5921debaf8112e55b7662dbf18b9bfc33",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "README.en.md",
+      "bytes": 4837,
+      "sha256": "c3b01a367595e3a3c8a813a8b6631657ab5588a71bab08bc9ef0cf677ee8ba06",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6065,
+      "sha256": "d5af32bf2c8db1dde6d9c94c80e738260229b8e9b4e687b631b4e92bcb4c2446",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 1260,
+      "sha256": "1088745585e9d8f3a1f48af37cdd2d83cf7e09c5b2565d97857612cf332f244c",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2131,
+      "sha256": "4bf4997d24546218cbfa3278a5e0f4856f75a35f8936a17d7c7334d1f2216d59",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "config/project.json",
+      "bytes": 328,
+      "sha256": "53e4bf44107759faae8ebef7246594d554fc1f7da8077965d6de57867595569c",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "docs/api.md",
+      "bytes": 7835,
+      "sha256": "e1a9c7e314813197a95723e09d54cfced26e9b97b02f524a9bba04de89782a92",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "docs/data-fields.md",
+      "bytes": 4555,
+      "sha256": "b59c6f2cd12170231fa34bbf87a9a3cff76f8418434d1e8fe62eaec6bf963c20",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "docs/deployment.md",
+      "bytes": 4137,
+      "sha256": "46e0c7abb8fe4bce97b91675d91a0f0c8d80a3c9cce501cf37b3605394ceef95",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "docs/identity-operations.md",
+      "bytes": 3602,
+      "sha256": "ddd3e8cbb9240c4a02a1d0dad1148fb2f812226bc45b7a1a370984b474ea9694",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "docs/network-acceptance.md",
+      "bytes": 7070,
+      "sha256": "7cb1be13e6a384dd184f2cf8d0782fb67354358aba1ee0964064d12cffae0b78",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "docs/operations.md",
+      "bytes": 6811,
+      "sha256": "8518a871c368b8f9b5a52b60f4096cc93b4b9d1c2c867be1d41cb8cb501ba68f",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "docs/quick-start.md",
+      "bytes": 3226,
+      "sha256": "1e0a31b00ac521bd8add9320c80740a1953473f4d35f3d364fb3d5d940f1b739",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-11-bilingual-network-village-tools.md",
+      "bytes": 39486,
+      "sha256": "e807ded42f93a39e0458aec746cc36ab5b3dad9ef2c9f15ba3d37e031caa7e45",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-10-11-bilingual-network-village-tools-design.md",
+      "bytes": 21821,
+      "sha256": "0eb4696bdba6eb6048e28e63b334dac2f3dd9bf5e863621813daf87f3a1cb1eb",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "docs/tool-resource-review.json",
+      "bytes": 21940,
+      "sha256": "5cf67e6aab50a174da515c3d184c9a96b454968a8525eef107e6a1bce2825836",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "docs/tools-usage.en.md",
+      "bytes": 3490,
+      "sha256": "eec5c9391a8bf748611b1dcbeaa48270d72c6fe1e5c38ecd876e1c5ce7561ba4",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "docs/tools-usage.md",
+      "bytes": 3064,
+      "sha256": "55ecbf06136a99da72a3e3aa8eb52a33fdf1b45f35462d44edc15e2c22aad933",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "index.html",
+      "bytes": 446,
+      "sha256": "bcd0885aeee951019bd014193e090acf9a04f7276ecd2ffff1d1c64f54ecb0ab",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "migrations/farm-support/001.sql",
+      "bytes": 336,
+      "sha256": "3af31431c1abd7f3f1847ada69cc9c6e27cac9add24f64e53cc082403c4c07b1",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "migrations/farm-support/002-activation.sql",
+      "bytes": 210,
+      "sha256": "942e530f51e08ed88bd58e835f098d57461450581f3f12de6e3dfcf78df1a207",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "package.json",
+      "bytes": 841,
+      "sha256": "6f80f310cf6eb83e333565355807951a3e76d000c8850f0ce623ed8b63a3150a",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "bytes": 48538,
+      "sha256": "887488e796bce2f52106df2bd2365291b879c3d393c2ec3fab24067345548206",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "bytes": 37,
+      "sha256": "f75cf8a74f6b3e67871d957f6eb136b201ae34ed1ac8377a3eaf44e0036fa63d",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "public/network-tools/bus-care-card-zh.png",
+      "bytes": 1729524,
+      "sha256": "cb439b6754e48f2fbf71c3b670cdaa2e499c49f6f33d57a03e3885fbee0f8411",
+      "normalization": "raw"
+    },
+    {
+      "path": "public/network-tools/farming-health-calendar-zh.png",
+      "bytes": 1925058,
+      "sha256": "fb50aad028385bbb172259ef41eadb9bc790b67d35bfed2e33a85703b94256c2",
+      "normalization": "raw"
+    },
+    {
+      "path": "public/network-tools/health-guide-back-zh.png",
+      "bytes": 2031846,
+      "sha256": "e7b7e7557012329babf76ce20c37470503bdd866227878fe1704bd00ec94de4e",
+      "normalization": "raw"
+    },
+    {
+      "path": "public/network-tools/health-guide-front-zh.png",
+      "bytes": 2098088,
+      "sha256": "1ab510cde3ce38d9262cafa75bd2d4526694cc03d87065ada1fc32948031782b",
+      "normalization": "raw"
+    },
+    {
+      "path": "public/network-tools/healthcare-friction-action-planning-template-zh.xlsx",
+      "bytes": 11378,
+      "sha256": "e3cd573ce755829e3a6d8b5b77f215e6a43db6b668c83d7982855ba4bd7ab5f5",
+      "normalization": "raw"
+    },
+    {
+      "path": "public/network-tools/healthcare-friction-framework-en.pdf",
+      "bytes": 374584,
+      "sha256": "0be64a6f5de58a97ebfc135ccc645b765dd3d7e51b7d9af371e0b51f897fbd4e",
+      "normalization": "raw"
+    },
+    {
+      "path": "public/network-tools/healthcare-friction-framework-zh.pdf",
+      "bytes": 216897,
+      "sha256": "e481c1210ccf82b6ddb9f41680a7367d2b26018e8b43638492f6d175a6134e3f",
+      "normalization": "raw"
+    },
+    {
+      "path": "public/network-tools/navigation-card-back-zh.png",
+      "bytes": 1889628,
+      "sha256": "8c1674a1b0c95024d4eb522290f5bdfca0bcb185a1601263e6d1f9cd103f1fc8",
+      "normalization": "raw"
+    },
+    {
+      "path": "public/network-tools/navigation-card-front-zh.png",
+      "bytes": 1759811,
+      "sha256": "e2bf0006d10203468906a992ebf324b0522b5ac57746ace110ef7f0c81c88b94",
+      "normalization": "raw"
+    },
+    {
+      "path": "public/network-tools/travel-reminder-zh.png",
+      "bytes": 1704764,
+      "sha256": "d95bcded4da4923174acbbbc6a9d9760b40d86fb669c455966c7e130b1a8cc73",
+      "normalization": "raw"
+    },
+    {
+      "path": "render.yaml",
+      "bytes": 1028,
+      "sha256": "5c292c0cc23bc0b544d451486dc2ffa268166514063ce4fa3ee96246bbe7838d",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "scripts/audit-network-tools.mjs",
+      "bytes": 5338,
+      "sha256": "47864eb47fa3711880f4e656c6749f6a0833d0df843552ad52c2660672360147",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "scripts/check-network-preview.mjs",
+      "bytes": 874,
+      "sha256": "9047f30d887fa8cb14d255732d5ed89aaceef17b9e947f4b82823497f53d8c31",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "scripts/check-release.mjs",
+      "bytes": 10689,
+      "sha256": "cd361b7ceb0a8b82be4f3db86047e2625bf269bb8495262070419903857fcd4a",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "scripts/farm-support/account-recovery.mjs",
+      "bytes": 2300,
+      "sha256": "7a7a5ba208a9be6e0830e2be7b3334b63478e2858dea0eb9ee67eb65de9aa3d8",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "scripts/farm-support/backup.mjs",
+      "bytes": 2638,
+      "sha256": "f322d4352cf24be712839fc197ecb38b59ebd517870ea70828a3b6d7c223c618",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "scripts/farm-support/demo.mjs",
+      "bytes": 2659,
+      "sha256": "8f2fc8c24af2ba185518e9d0fbb245a029812f9c1923e48320bf71a48129ed47",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "scripts/farm-support/production.mjs",
+      "bytes": 146,
+      "sha256": "eb56f55519321051adf8f88ca28a05fc08346d7adc5ae94406aeffdf651c88e7",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "scripts/farm-support/provision.mjs",
+      "bytes": 274,
+      "sha256": "f7e7a7a61537dda12af643f243624519a9bd249fc6127052e0b9b10fecab0efa",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "scripts/farm-support/registry-upgrade.mjs",
+      "bytes": 1577,
+      "sha256": "fab5685ede5cb023c5076a18102a183908d4d914532c2ab6087e987db3cfe193",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "scripts/farm-support/restore.mjs",
+      "bytes": 1142,
+      "sha256": "047e586d1516030c8ebca972e1313c11728cc10a7047880c10e5c91f9ec34f23",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "scripts/farm-support/runtime.mjs",
+      "bytes": 1658,
+      "sha256": "221f60a23d4eee71c124b3f95badf59f0db4baec1448d94dc26c3163aaf912c5",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "scripts/source-manifest.mjs",
+      "bytes": 1563,
+      "sha256": "dee0b58b3d50a4056bda860fb3689d76bc7a991e580f3a9040d7a7a9e41d7d75",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "server/farm-support/activation.mjs",
+      "bytes": 12158,
+      "sha256": "3f2136a9ceef847d4f6dab847fbfbe63aa98ae99656c22fca1038884cd27bfb8",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "server/farm-support/auth.mjs",
+      "bytes": 2720,
+      "sha256": "c3cf27571f07519197b8b18da0e963561892a9713630ee21ce68d98f305e2645",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "server/farm-support/config.mjs",
+      "bytes": 1772,
+      "sha256": "866878056da0c6708f5a1dd66e22761856d14727242e0a48b5f95ffa2ccd41a9",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "server/farm-support/domain.mjs",
+      "bytes": 42034,
+      "sha256": "616f949eaaca2d7968b17782afda7219bdf25bd0f3ccc934237d2cfef871847e",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "server/farm-support/http-policy.mjs",
+      "bytes": 1756,
+      "sha256": "e3c5c07802fdbf660319f39ad13e83107a419bee1b8fc56211b3fccd836dcfec",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "server/farm-support/http.mjs",
+      "bytes": 20412,
+      "sha256": "73cd311a55f03c1e259faa708a6b9d5bb60ce3a4be879bb933b2ae2788ce4333",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "server/farm-support/mail.mjs",
+      "bytes": 1958,
+      "sha256": "749159b4c741a46a9c00bd8b988be329a329581296ef7a6f9bd1cff625ae3441",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "server/farm-support/maintenance.mjs",
+      "bytes": 11081,
+      "sha256": "202c164d803b4b3138e4485ce120c0efacbae04f98198e2cbc3b850e5e008a65",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "server/farm-support/matching.mjs",
+      "bytes": 3119,
+      "sha256": "4f71a31b4b05222a9b955318dfa393e9e9f4879c7f61caf25ee27c6b6e7902fb",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "server/farm-support/mfa.mjs",
+      "bytes": 5508,
+      "sha256": "fb02bdcb72fce467ed5e9c43c3a062c28465b7ebad35d1a3cb685e38b089c1c2",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "server/farm-support/production-store.mjs",
+      "bytes": 9666,
+      "sha256": "e2a6334388b4a27ed66aadff27c16baebf715a3c724dfac55cae5c1c690a789e",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "server/farm-support/registration.mjs",
+      "bytes": 8491,
+      "sha256": "98e8ba155737c1b5a5caa74400f2e4407fefe8fdea9c032cf92e6681803ea291",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "server/farm-support/registry-upgrade.mjs",
+      "bytes": 4584,
+      "sha256": "2bf86fbc04b2536bbd5dcf3913cfd7c1b97918d6cf585a40c089b74ff15e5e1c",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "server/farm-support/sealed.mjs",
+      "bytes": 1605,
+      "sha256": "e3a0b26d7d61e1cdf9914de72402f4d40c67aa2d3acfd660bd431950712544b4",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "server/farm-support/static.mjs",
+      "bytes": 2641,
+      "sha256": "99987bdd5d7c2c6da393d19b738de52bb85f727aa9f362fcf71de0b77fdac671",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "server/farm-support/store.mjs",
+      "bytes": 8145,
+      "sha256": "9fa02a8c911a76d1d04c8427901079518ac2bd440151ad20513859fe09a1fc49",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/BackendApp.jsx",
+      "bytes": 1571,
+      "sha256": "829a973bd84d6b8b959f60e1bebe07f74bcd17085b24535696242c9862e9f975",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/backend-base.css",
+      "bytes": 1054,
+      "sha256": "ad5b8032cfe7bfd749c38e60a06739f8d4d5fdc380a6b76111bc2850a42187f9",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/AccountApprovals.jsx",
+      "bytes": 6609,
+      "sha256": "dd44aa5c25ae686553cf225c5c5186c21ef13310a0ef2e26b596f82334014278",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/AccountSecurity.jsx",
+      "bytes": 3906,
+      "sha256": "b02ee5daaac640a4cb8289d90de13836c2d070d878d656036eab51af9f1cb15e",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/ActionDialog.jsx",
+      "bytes": 25790,
+      "sha256": "1991f411322d32e6965f34632e6d5fa5410e323da5d3da001f37e75fc8f3ebe9",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/LocaleProvider.jsx",
+      "bytes": 2179,
+      "sha256": "75303e7f23196a9cb1204a0b24c231e7e3fbfa87a265d2104ccd02bbb7809958",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/LoginPanel.jsx",
+      "bytes": 2717,
+      "sha256": "b5fb8ff8bb7f6ea98ab78add78e10e568fa8d219412de3452d6614edb64ddcdb",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/MatchDialog.jsx",
+      "bytes": 7694,
+      "sha256": "e50676425d54b47103d20c0fb29991092b5ed7c50443c6b1b59120eb9fa641d9",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/OperationsGuide.jsx",
+      "bytes": 1018,
+      "sha256": "83d95510d02a693e3fd349d5e602f58516cac155b48d7f8f571c4c519df14a3e",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/PrintCard.jsx",
+      "bytes": 3650,
+      "sha256": "85d54347c95805660ac521fd836a5f42cf71b2417e41bffdcf7781698f55dc7a",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/ProjectIdentity.jsx",
+      "bytes": 997,
+      "sha256": "4b80fe6823b60b8766c7ad6e4cb039bfc73e9c00054d8332a38042817f1ced86",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/Public.jsx",
+      "bytes": 8399,
+      "sha256": "3a107e374726471c8c6b41410dac2dc318a9eb1259cdf20251ad3c954be52aa2",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/Registration.jsx",
+      "bytes": 14569,
+      "sha256": "4a071a1f512e8ca8307d654dec4e6a8364541e06df7ee3e887af51f54db2eac9",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/ToolsPage.jsx",
+      "bytes": 1732,
+      "sha256": "00b0cf1783e8d1d1a1cee1d4ed72926f7477bba5c0f0315000b76b0695a7116c",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/UsualTimes.jsx",
+      "bytes": 1611,
+      "sha256": "a2fed76c1aad724ad59a0d11e5e08f660f9aafc9ab18fe9ea0b6c298960fafc6",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/VillageManagement.jsx",
+      "bytes": 9451,
+      "sha256": "c00c088266083b01a8f575a51d99db4094df972aa6d49414c03dd4844ade5b77",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/Workspace.jsx",
+      "bytes": 35300,
+      "sha256": "7407c6d701c658f3f9502e14d8d0a309a6567830c6d81ecf9ec8662b8a96ebc9",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/api.js",
+      "bytes": 3169,
+      "sha256": "82f4f10448bc96265b618dbee6a58b68509c317fed9b2616478bdbd4fec8c3d7",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/environment.js",
+      "bytes": 486,
+      "sha256": "df38fd91c62c8515bcdf67130af4ea0f62d6f52b74539c329b3ef12d1c8b9e82",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/i18n.js",
+      "bytes": 12319,
+      "sha256": "cd00429a71b51c28b90c6828eafa0135381a4bebd362bf80083467b24f1914e7",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/model.js",
+      "bytes": 1203,
+      "sha256": "df119e6135c4d13a6f7338fa2f3a4413bc6a243207ea42cb084fb94bf453b973",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/operations-guide.js",
+      "bytes": 3262,
+      "sha256": "0e272a117d3c075143b8fd3fb4c1a3706ddf01d3ec650eabc19aae64ba38419b",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/permissions.js",
+      "bytes": 1674,
+      "sha256": "d657768691690e143f03d2af0c4209faae0be4de4bda73625cb9f78ba4533280",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/project-config.js",
+      "bytes": 2536,
+      "sha256": "53a8d344913d2b240c0aa8e5726fc8ba67577d2956375c545cf8c085d974a91c",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/project-identity.css",
+      "bytes": 85,
+      "sha256": "0b4c51551f38c50f40cbef946271fbdd24ae2922c8b54c561bb7c8c7e3c0ba84",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/public-fallback.js",
+      "bytes": 2116,
+      "sha256": "828440179344983e95dd415012c50ee086272572bf1c6f7626d963f263162909",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/registration.css",
+      "bytes": 2387,
+      "sha256": "ed94a4f8f3b8530bded89311152d89442efa14f381e60dc563800c73d33d2022",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/resource-approval.js",
+      "bytes": 2206,
+      "sha256": "bd7ca2e4581eacc6722951f05795c1ad3c2d38d662e6c252e0fac82afe2eb709",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/resource-catalog.js",
+      "bytes": 13138,
+      "sha256": "11ca573cb13e655766d391e659e3809e4e3e740111771054d94418669f7e7ec6",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/session.js",
+      "bytes": 1778,
+      "sha256": "26b2f2205054467105ecde947c147abed18c6bbf07897fd691ec677ae1dcf0c3",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/styles.css",
+      "bytes": 24264,
+      "sha256": "60622b0d2d0dcac849a145e4121568e93318395905ac5e67174ab44af4f9ac80",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/ui-copy.js",
+      "bytes": 47952,
+      "sha256": "2b3e06bddc6d59967dae201df24f318f12fc9b452c30e34702bf05a2cdbb0eed",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/farm-support/village-registry.js",
+      "bytes": 4481,
+      "sha256": "fe2c43a56624b0988fb74af311b6d32dffc4026ea29431ea2ddbf76076064b78",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "src/main.jsx",
+      "bytes": 432,
+      "sha256": "b69ee19b5bb4754d73e80c658007834005caa82c7dea7d8b0c41ea850c1376d8",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "templates/availability.csv",
+      "bytes": 38,
+      "sha256": "605b791a3f5ba95667d391cc20e0ab6f53148b68f0a121524ba57540b26cb830",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "templates/examples/matches.json",
+      "bytes": 148,
+      "sha256": "1b695da640b0e4792153289d0f92622f8ce372101231779f7f7cc836d71235c9",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "templates/examples/person-create.json",
+      "bytes": 332,
+      "sha256": "2c61b24490b016d3c51008666058427c66097249c2054036ddf29e1c250f9cb0",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "templates/examples/request-create.json",
+      "bytes": 405,
+      "sha256": "0a1e668fd8100c739489d55cfee6e5e09a6a476ce88532028998c95b84affcf5",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "templates/people.csv",
+      "bytes": 83,
+      "sha256": "a4ccc60765b88168ca86a65fd868d3f834f327b142513b0862086d2de96e6313",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "templates/requests.csv",
+      "bytes": 63,
+      "sha256": "737bbca3cd3493d23f07cb4e660b7ebf760620d18202a5846c4e837e13668c3c",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/account-security.test.mjs",
+      "bytes": 1980,
+      "sha256": "08a42ec9101f57318e8f333f8ef5b11fe8cb0cafefe8022af7ee24b7a201c547",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/activation.test.mjs",
+      "bytes": 14084,
+      "sha256": "9d0980d86c53d26f35075c9bfc569c8f0dc4bd7f2f711084a96f082e844b12d4",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/backend-render.test.mjs",
+      "bytes": 1655,
+      "sha256": "ff1b245ff89c2651963278d14367053d879da68bc46a9a20626db6dca5ae78fc",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/configured-suite.mjs",
+      "bytes": 2092,
+      "sha256": "80be7964ca356fdbefa74bbf87bb967aa54861f37323aa71461d06936a64b0c5",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/cross-village-setup.mjs",
+      "bytes": 619,
+      "sha256": "23f6ee98512f9a0a58b83cbbee20274aad70f582d68715594626b995a1d046cc",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/custom-config-scenario.mjs",
+      "bytes": 3655,
+      "sha256": "51bfb7ea85666cd5d7870825be9f37509805e464b6db09fb3c90cc4534a7f0e5",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/farm-support/concurrency.test.mjs",
+      "bytes": 4051,
+      "sha256": "ed722895c245bb134bcae1043e7a7040c91432ae0d10d8d668ebb8457d92f284",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/farm-support/domain.test.mjs",
+      "bytes": 7005,
+      "sha256": "af4fc0fad2723120e6989f3e53108eeadb5ed8601c4cbe3b7b61e7366837508d",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/farm-support/helpers.mjs",
+      "bytes": 3062,
+      "sha256": "6358ea664022a5dd13ced24b82cd1aca5d7868ed208ae1449bd1425c87d3c4e4",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/farm-support/http.test.mjs",
+      "bytes": 3392,
+      "sha256": "c4bf5849ee6f8f28d18ee919a0b9c47c68651077628eaf853b808a9662a0741e",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/farm-support/matching-client.test.mjs",
+      "bytes": 2153,
+      "sha256": "0ba19bf4e60d46c03a25e77638bb1adc94ded9803374dcf1c435b1987548d77e",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/farm-support/matching-http.test.mjs",
+      "bytes": 3853,
+      "sha256": "3541dadac6193a5894e5f826b4f04cae823fa003584c88a60c97d3c2581b1319",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/farm-support/matching-render.test.mjs",
+      "bytes": 2047,
+      "sha256": "e6fd92425900325405d4cb221441f9e31f82fefc707c4b54e65bec545a9fb866",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/farm-support/matching.test.mjs",
+      "bytes": 9284,
+      "sha256": "b5b594ed7f5435856b47ae5cab4b867ecb65c82e92def53b9653eac553c005fd",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/farm-support/operations.test.mjs",
+      "bytes": 7838,
+      "sha256": "383855274e729266139e350374ca422e22e0d5aa5d10f606108b53331a23cc4b",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/farm-support/privacy-recovery.test.mjs",
+      "bytes": 7700,
+      "sha256": "e1a11a507d60b0c216a278a939b7958ed7b8f15cd85642d3d5b5e777a508229f",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/farm-support/race-worker.mjs",
+      "bytes": 819,
+      "sha256": "d4bdac6f1e4db966c691531e76c0cee74163e03ffe1c7d679ef481747925ec5f",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/farm-support/registration-http.test.mjs",
+      "bytes": 11437,
+      "sha256": "6734ff0f7456919073487e93cc5ba7c602d743857d9bbe7bc1e5cbff610009df",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/farm-support/registration-ui.test.mjs",
+      "bytes": 7139,
+      "sha256": "2bd23502f5078a5f17dca9c05c2f4c553f04e27a17b7116b13ecfa8f07076e2f",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/farm-support/registration.test.mjs",
+      "bytes": 12527,
+      "sha256": "da9e1411c72663f5af01ebfe3c2281fe33982a4ea16b4bd4bb9c4b1a237bc27d",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/farm-support/regression.test.mjs",
+      "bytes": 6247,
+      "sha256": "e88f1ef9b8dba894f26e2b2f24efbc8c593bbc0a8cacc8a029b557d876f3436a",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/farm-support/session.test.mjs",
+      "bytes": 2371,
+      "sha256": "b26ce17b823822133a34861512500dabb7fda498a9c021a008a45cafb0b5b7cd",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/farm-support/store.test.mjs",
+      "bytes": 1878,
+      "sha256": "c595e467df0da55f239e656df50d32103d78c199c0af37a8e1c6f2c2bed30a51",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/fixture-villages.mjs",
+      "bytes": 184,
+      "sha256": "f92807985a28abe8eff94c5ac1458e393b3a8704a577b7548c3770bd42d89101",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/grant-capabilities.test.mjs",
+      "bytes": 4187,
+      "sha256": "65b306b5dc5a4cb3f1ae6d57841ab857254288109f7fd4cc881e39008fc7749c",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/http-policy.test.mjs",
+      "bytes": 2227,
+      "sha256": "6c8db20078bc3b03485ae40fd1f0e8ac0bdbe4c2e5b18c169d688e576396a34f",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/identity-fixture.mjs",
+      "bytes": 1606,
+      "sha256": "b97b0ace11705127c8a1690b0d2f9b926ce75a09c024b9f77aa2849e43f84852",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/maintenance-cli.test.mjs",
+      "bytes": 1052,
+      "sha256": "e1e5ff2cfc73a08c8f8d9192e443847e57afd401d10a7bbb33767e52955bc75d",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/maintenance-workload.mjs",
+      "bytes": 2159,
+      "sha256": "0fc627057dfe8fee7693dc0aafff2e1ca0624410dac153df6e085d06c83b3e7b",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/management-identity.test.mjs",
+      "bytes": 9228,
+      "sha256": "5a656ed155321640a2ded5c310e776bdec91d0ebc3c092686f2506a9f4c98105",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/mfa.test.mjs",
+      "bytes": 10663,
+      "sha256": "7cf043114b4eef846352a9df30842adc5b7d9b058099c1984d0ce2a0dd0b7590",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/network-acceptance.test.mjs",
+      "bytes": 6541,
+      "sha256": "6528763525e2de0a563944533fd7ab5156291b4b40d16da882aff9f4018928e4",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/network-async-ui.test.mjs",
+      "bytes": 3057,
+      "sha256": "2800c3b7ad4ff404dbd1275e2323f30709e03b647576f84b2378725d4be66f6b",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/network-i18n.test.mjs",
+      "bytes": 2363,
+      "sha256": "3a223d88834ce06eb05e211b87079a2c732976badb9e9f94b01cc1777dd20575",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/network-tools-audit.test.mjs",
+      "bytes": 2254,
+      "sha256": "ef4c65c80774097ef21cc816551c41c2706bc8045c1364d888ea48488e184f96",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/network-tools-catalog.test.mjs",
+      "bytes": 1857,
+      "sha256": "e9bb3f594cf4f54b9840c997d71ef4a130ff472f4182faf44571c7ddebc78f7e",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/network-tools-routes.test.mjs",
+      "bytes": 5670,
+      "sha256": "a5a4ab21310852dcfe1956bf1f5d40d833f9392e0512ad8de98f1a9287ff1925",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/network-workspace.test.mjs",
+      "bytes": 6412,
+      "sha256": "b9904c9341b11c44b22275931b480a20fa4320503b8423124b3d832d147733b0",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/operations-guide.test.mjs",
+      "bytes": 1462,
+      "sha256": "2c986bc9761f047e527b20f5f7b1c6523c88b1f89937423ee0e244774ecc8b2f",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/private-views.test.mjs",
+      "bytes": 2800,
+      "sha256": "af912f31311832b82e5e15d6d179c14614061604b2b8c4fccad73453c11342c8",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/production-entry.test.mjs",
+      "bytes": 1564,
+      "sha256": "d7781c860b7fb5a951838ce54eebbfd6ce96e0f244d580b8f2dd890a9deb245b",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/production-http.test.mjs",
+      "bytes": 7964,
+      "sha256": "75dc8a160d5ed843413f309f3d3c8dc42b8918ab975898e6c2757c92ebe75ca8",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/production-recovery.test.mjs",
+      "bytes": 9494,
+      "sha256": "ca40cc20592e5c8f9dc973150fa1353a471d69d44f7d1c6af99b8f786fde077c",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/production-store.test.mjs",
+      "bytes": 7294,
+      "sha256": "8d4bd4bd289ed7e442142cd9f37f1c16c09e52f09003cea128f159fe2f29de5e",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/production-ui.test.mjs",
+      "bytes": 4486,
+      "sha256": "3493906ddc5c78f1229e5a0b51ce1d689e2f2ae958b4cc3dfc265553a1ff0c00",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/registry-upgrade.test.mjs",
+      "bytes": 8079,
+      "sha256": "2f88516dab482cf8beaa2cbd29bfd846618937aa569d1172163904abd5af15bb",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/release.test.mjs",
+      "bytes": 5341,
+      "sha256": "002fcbd7cabb1a7e009830537e5cfd2be5392d947b59b0425a0fed90ab61e9bc",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/retry.test.mjs",
+      "bytes": 2878,
+      "sha256": "0813cabc974625dbdfbc1a258d6f85b5bbd9cd5facc017ebed1726baee6c33cb",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/static-fixture.mjs",
+      "bytes": 433,
+      "sha256": "90a514b08778a0dd482378a827ac2a5ee31da4b34b793ecf6fe41774cab4a6e0",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/storage-budget.test.mjs",
+      "bytes": 2350,
+      "sha256": "2f279a961a791fbb86cc6553bdd6c86195679e74d3d5147ec4d7eaa85ac25ce4",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/template-config.test.mjs",
+      "bytes": 6559,
+      "sha256": "bb0af1f99d0fae09d2324b1f72c3edddcc3130ee33a6821e5b189ab13e0e5624",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/template-contracts.test.mjs",
+      "bytes": 4220,
+      "sha256": "8e558718b9c5dd3eaec2243e37d0c148c4318851fed35a755c3a939f6f180e58",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/template-customization.test.mjs",
+      "bytes": 696,
+      "sha256": "51288af6524ae88c573be0e1459868f8f47fb5b7e8d1dc402d467c99638d5e7d",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/template-demo.test.mjs",
+      "bytes": 3364,
+      "sha256": "28b82ee1d2256e2d0a51009aa743fb5a1bda69dd8cef7190fd6304588e03943c",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/template-release.test.mjs",
+      "bytes": 10160,
+      "sha256": "8b63c540f7b4aa4de11f129514aae0c381c4505d830d0cd08d0cffc8113a5101",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/template-render.test.mjs",
+      "bytes": 4398,
+      "sha256": "e986e3e51c431531b41805e5f849937ecd5d15176110cbdfbf909b162c3ba2fb",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/template-source.test.mjs",
+      "bytes": 1810,
+      "sha256": "7a6030932535b33315b18b3686dbcff734b0f134cf64a813e2dfb0da827ea501",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/template-storage.test.mjs",
+      "bytes": 4520,
+      "sha256": "a55cfb17e3669ab79c39ef6de8e416fa54dba2c4ba739f791b687abf21f173b9",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/village-management.test.mjs",
+      "bytes": 4685,
+      "sha256": "3b1fe40aaf777deecf6e35e043dd79d32398657bb4b8ab15994ac6ea0c4535d1",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "tests/village-registry.test.mjs",
+      "bytes": 5980,
+      "sha256": "4575cc599ae1a21edeb0f803efdd63491a006cbfddb494b4a34110b0a449265a",
+      "normalization": "UTF-8 LF"
+    },
+    {
+      "path": "vite.config.mjs",
+      "bytes": 859,
+      "sha256": "2e3dcfd940cb51d78350ae48a58739775012eeb4a4d8c09f971be01a51ec0253",
+      "normalization": "UTF-8 LF"
+    }
+  ]
+}

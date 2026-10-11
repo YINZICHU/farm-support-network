@@ -1,0 +1,22 @@
+.fs-registration{grid-template-columns:minmax(0,1fr) minmax(0,1.1fr)}
+.fs-registration .fs-login-story h1{white-space:pre-line}
+.fs-registration .fs-login-story .fs-brand{margin-bottom:60px}
+.fs-registration .fs-login-form{width:min(100%,600px);min-width:0;padding-block:32px;overflow-wrap:anywhere}
+.fs-registration .fs-login-story small{margin-top:30px}
+.fs-register-steps{list-style:decimal-leading-zero;padding-left:28px;margin:20px 0;line-height:2.4;font-size:15px;color:#dbe6cf}
+.fs-registration-nav{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:28px}
+.fs-register-villages{border:0;padding:0;margin:20px 0;min-width:0}
+.fs-register-villages legend{font-size:14px;font-weight:550;margin-bottom:10px;line-height:1.7}
+.fs-register-villages>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.fs-register-villages label{display:flex;align-items:center;gap:9px;min-height:46px;border:1px solid #cbd5c3;border-radius:7px;background:#fffdf6;padding:9px 11px;font-size:14px;line-height:1.6;cursor:pointer}
+.fs-register-villages input{width:18px;height:18px;flex-shrink:0;accent-color:#164b3f}
+.fs-account-approvals .fs-section-heading{margin-top:0}
+.fs-application-card{padding:23px 0;border-top:1px solid #dce0d5;overflow-wrap:anywhere}
+.fs-application-card h3{margin:14px 0 4px}
+.fs-application-card form{margin-top:22px;max-width:650px}
+.fs-test-inbox{padding-top:20px;border-top:1px solid #dce0d5;margin-top:24px}
+.fs-test-inbox>summary{cursor:pointer;min-height:44px;font-size:15px;font-weight:600}
+.fs-demo-mail{margin-top:20px;padding:19px;border:1px solid #dce0d5;border-radius:8px;overflow-wrap:anywhere}
+.fs-demo-mail h3{font-size:17px}
+.fs-registration .fs-inline-actions{margin:24px 0}
+@media(max-width:768px){.fs-registration{grid-template-columns:minmax(0,1fr)}.fs-registration .fs-login-story{padding:24px}.fs-registration .fs-login-story .fs-brand{margin-bottom:20px}.fs-registration .fs-login-story h1{font-size:27px;margin-bottom:10px}.fs-register-steps{margin:10px 0;font-size:13px;line-height:2}.fs-registration .fs-login-form{padding:26px 24px}.fs-registration .fs-login-form h2{font-size:26px}.fs-registration-nav{margin-bottom:22px}.fs-register-villages label{font-size:13px;padding:8px}.fs-application-card .fs-inline-actions{display:grid;grid-template-columns:minmax(0,1fr)}.fs-demo-mail{padding:16px}}

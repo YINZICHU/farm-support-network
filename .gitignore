@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.superpowers/
+.farm-support-runtime/
+.runtime/
+.env
+.env.*
+!.env.example
+*.sqlite*
+*.db
+*.db-*
+*.pem
+*.key
+*.log
+backups/
+artifacts/
+.pnpm-store/

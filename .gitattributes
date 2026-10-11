@@ -1,0 +1,6 @@
+* text=auto eol=lf
+/public/network-tools/*.docx binary
+/public/network-tools/*.xlsx binary
+/public/network-tools/*.pptx binary
+/public/network-tools/*.pdf binary
+/public/network-tools/*.png binary

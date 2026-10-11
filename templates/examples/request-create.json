@@ -1,0 +1,15 @@
+{
+  "command": "request.create",
+  "key": "fictional-request-example-001",
+  "payload": {
+    "village": "example-a",
+    "household": "FICTIONAL-HOUSEHOLD-001",
+    "name": "虚构示例家庭",
+    "phone": "000-DEMO-ONLY",
+    "task": "sorting",
+    "note": "仅虚构示例：轻量分拣，不搬重物",
+    "source": "phone",
+    "actualAt": "2026-10-11T15:00:00+08:00",
+    "consent": false
+  }
+}

@@ -1,0 +1,34 @@
+# Review-only configuration. Creating this service requires the separate billing gate.
+# Blueprint auto-sync must also be disabled in the Render dashboard.
+services:
+  - type: web
+    name: farm-support-network-template
+    runtime: node
+    plan: 0.5c-512mb
+    region: singapore
+    numInstances: 1
+    autoDeployTrigger: off
+    buildCommand: pnpm install --frozen-lockfile --prod=false && pnpm build && pnpm check:release
+    startCommand: node scripts/farm-support/production.mjs
+    healthCheckPath: /healthz
+    disk:
+      name: farm-support-data
+      mountPath: /var/data/farm-support
+      sizeGB: 1
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: "24.19.0"
+      - key: PORT
+        value: "10000"
+      - key: FARM_DATA_DIR
+        value: /var/data/farm-support
+      - key: FARM_ORIGIN
+        sync: false
+      - key: FARM_AUTH_SECRET
+        sync: false
+      - key: FARM_DATA_KEY_BASE64
+        sync: false
+      - key: FARM_INSTANCE_ID
+        sync: false

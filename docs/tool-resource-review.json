@@ -1,0 +1,326 @@
+{
+  "reviewedOn": "2026-10-11",
+  "scope": "Exact 19 original public candidates; original files remain unchanged. Only the 10 accepted resources are licensed for public redistribution under CC BY 4.0 following the owner's confirmation on 2026-10-12. Nine excluded candidates remain withheld.",
+  "resources": [
+    {
+      "filename": "rural-health-care-survey-template-zh.docx",
+      "bytes": 41528,
+      "sha256": "d39f053d23abc3860219999be35dc2ef9fe15894fb3723d05b5476d68abd2bb0",
+      "status": "excluded",
+      "findings": [
+        "notes/properties require manual inspection: docProps/core.xml",
+        "notes/properties require manual inspection: docProps/app.xml",
+        "hidden content: word/styles.xml",
+        "hidden content: word/stylesWithEffects.xml",
+        "embedded or active content: customXml/item1.xml",
+        "embedded or active content: customXml/_rels/item1.xml.rels",
+        "embedded or active content: customXml/itemProps1.xml",
+        "notes/properties require manual inspection: docProps/thumbnail.jpeg",
+        "Review complete body/tables/cells, authorship and third-party reuse rights; render original for visual inspection."
+      ],
+      "path": "public/network-tools/rural-health-care-survey-template-zh.docx",
+      "reviewedOn": "2026-10-11",
+      "reason": "Body, properties and notes inspected structurally; original rendering unavailable because bundled LibreOffice is absent. Layout/embedded-image visual review incomplete; provide reviewed public version or complete original rendering before inclusion.",
+      "reuseBasis": "Pending review; not copied or downloadable."
+    },
+    {
+      "filename": "semi-structured-interview-template-zh.docx",
+      "bytes": 41692,
+      "sha256": "74b9240c39a9222eb2dd3a2b5c960babbf95232b795dcb7aea022921c9198d4e",
+      "status": "excluded",
+      "findings": [
+        "notes/properties require manual inspection: docProps/core.xml",
+        "notes/properties require manual inspection: docProps/app.xml",
+        "hidden content: word/styles.xml",
+        "hidden content: word/stylesWithEffects.xml",
+        "embedded or active content: customXml/item1.xml",
+        "embedded or active content: customXml/_rels/item1.xml.rels",
+        "embedded or active content: customXml/itemProps1.xml",
+        "notes/properties require manual inspection: docProps/thumbnail.jpeg",
+        "Review complete body/tables/cells, authorship and third-party reuse rights; render original for visual inspection."
+      ],
+      "path": "public/network-tools/semi-structured-interview-template-zh.docx",
+      "reviewedOn": "2026-10-11",
+      "reason": "Body, properties and notes inspected structurally; original rendering unavailable because bundled LibreOffice is absent. Layout/embedded-image visual review incomplete; provide reviewed public version or complete original rendering before inclusion.",
+      "reuseBasis": "Pending review; not copied or downloadable."
+    },
+    {
+      "filename": "healthcare-friction-action-planning-template-zh.xlsx",
+      "bytes": 11378,
+      "sha256": "e3cd573ce755829e3a6d8b5b77f215e6a43db6b668c83d7982855ba4bd7ab5f5",
+      "status": "accepted",
+      "findings": [
+        "Review complete body/tables/cells, authorship and third-party reuse rights; render original for visual inspection."
+      ],
+      "path": "public/network-tools/healthcare-friction-action-planning-template-zh.xlsx",
+      "reviewedOn": "2026-10-11",
+      "reason": "All four visible worksheets and blank fields structurally inspected and rendered with the bundled workbook renderer; all four previews inspected. No formulas, comments, hidden rows/columns, external links, embedded objects, macros or response records.",
+      "reuseBasis": "On 2026-10-12 the owner confirmed public redistribution rights and licensed this exact unchanged original under CC BY 4.0. Credit Care in Farming Seasons / 殷子楚 Yin Zichu, link to source and license, retain notices and indicate changes. Other rights and withheld materials are not covered.",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "filename": "research-image-consent-template-bilingual.docx",
+      "bytes": 41376,
+      "sha256": "43c5374ac2520afba59fec2b1a6b7e7bb8b83790b694be764add21e3ae143c4e",
+      "status": "excluded",
+      "findings": [
+        "notes/properties require manual inspection: docProps/core.xml",
+        "notes/properties require manual inspection: docProps/app.xml",
+        "hidden content: word/styles.xml",
+        "hidden content: word/stylesWithEffects.xml",
+        "embedded or active content: customXml/item1.xml",
+        "embedded or active content: customXml/_rels/item1.xml.rels",
+        "embedded or active content: customXml/itemProps1.xml",
+        "notes/properties require manual inspection: docProps/thumbnail.jpeg",
+        "Review complete body/tables/cells, authorship and third-party reuse rights; render original for visual inspection."
+      ],
+      "path": "public/network-tools/research-image-consent-template-bilingual.docx",
+      "reviewedOn": "2026-10-11",
+      "reason": "Body, properties and notes inspected structurally; original rendering unavailable because bundled LibreOffice is absent. Layout/embedded-image visual review incomplete; provide reviewed public version or complete original rendering before inclusion.",
+      "reuseBasis": "Pending review; not copied or downloadable."
+    },
+    {
+      "filename": "village-replication-toolkit.pptx",
+      "bytes": 20434159,
+      "sha256": "55ab71d6a0103eb99306d5d534c1a2759198fdb9b071cfba81d46ac29a195b39",
+      "status": "excluded",
+      "findings": [
+        "notes/properties require manual inspection: docProps/core.xml",
+        "notes/properties require manual inspection: docProps/app.xml",
+        "notes/properties require manual inspection: ppt/notesSlides/notesSlide1.xml",
+        "notes/properties require manual inspection: ppt/notesSlides/notesSlide2.xml",
+        "notes/properties require manual inspection: ppt/notesSlides/notesSlide3.xml",
+        "notes/properties require manual inspection: ppt/notesSlides/notesSlide4.xml",
+        "notes/properties require manual inspection: ppt/notesSlides/notesSlide5.xml",
+        "notes/properties require manual inspection: ppt/notesSlides/notesSlide6.xml",
+        "notes/properties require manual inspection: ppt/notesSlides/notesSlide7.xml",
+        "notes/properties require manual inspection: ppt/notesSlides/notesSlide8.xml",
+        "notes/properties require manual inspection: ppt/notesSlides/notesSlide9.xml",
+        "notes/properties require manual inspection: ppt/notesSlides/notesSlide10.xml",
+        "notes/properties require manual inspection: ppt/notesSlides/notesSlide11.xml",
+        "notes/properties require manual inspection: ppt/notesSlides/notesSlide12.xml",
+        "notes/properties require manual inspection: ppt/notesSlides/notesSlide13.xml",
+        "notes/properties require manual inspection: ppt/notesSlides/_rels/notesSlide1.xml.rels",
+        "notes/properties require manual inspection: ppt/notesSlides/_rels/notesSlide10.xml.rels",
+        "notes/properties require manual inspection: ppt/notesSlides/_rels/notesSlide11.xml.rels",
+        "notes/properties require manual inspection: ppt/notesSlides/_rels/notesSlide12.xml.rels",
+        "notes/properties require manual inspection: ppt/notesSlides/_rels/notesSlide13.xml.rels",
+        "notes/properties require manual inspection: ppt/notesSlides/_rels/notesSlide2.xml.rels",
+        "notes/properties require manual inspection: ppt/notesSlides/_rels/notesSlide3.xml.rels",
+        "notes/properties require manual inspection: ppt/notesSlides/_rels/notesSlide4.xml.rels",
+        "notes/properties require manual inspection: ppt/notesSlides/_rels/notesSlide5.xml.rels",
+        "notes/properties require manual inspection: ppt/notesSlides/_rels/notesSlide6.xml.rels",
+        "notes/properties require manual inspection: ppt/notesSlides/_rels/notesSlide7.xml.rels",
+        "notes/properties require manual inspection: ppt/notesSlides/_rels/notesSlide8.xml.rels",
+        "notes/properties require manual inspection: ppt/notesSlides/_rels/notesSlide9.xml.rels",
+        "Review complete body/tables/cells, authorship and third-party reuse rights; render original for visual inspection."
+      ],
+      "path": "public/network-tools/village-replication-toolkit.pptx",
+      "reviewedOn": "2026-10-11",
+      "reason": "Body, properties and notes inspected structurally; original rendering unavailable because bundled LibreOffice is absent. Layout/embedded-image visual review incomplete; provide reviewed public version or complete original rendering before inclusion.",
+      "reuseBasis": "Pending review; not copied or downloadable."
+    },
+    {
+      "filename": "healthcare-friction-framework-zh.pdf",
+      "bytes": 216897,
+      "sha256": "e481c1210ccf82b6ddb9f41680a7367d2b26018e8b43638492f6d175a6134e3f",
+      "status": "accepted",
+      "findings": [
+        "Review all PDF pages, metadata, annotations, attachments, scripts and third-party reuse rights."
+      ],
+      "path": "public/network-tools/healthcare-friction-framework-zh.pdf",
+      "reviewedOn": "2026-10-11",
+      "reason": "All seven pages rendered and inspected; no annotations, attachments, actions or scripts in the object tree. Composite non-individual paths, aggregate examples, not clinical scale.",
+      "reuseBasis": "On 2026-10-12 the owner confirmed public redistribution rights and licensed this exact unchanged original under CC BY 4.0. Credit Care in Farming Seasons / 殷子楚 Yin Zichu, link to source and license, retain notices and indicate changes. Other rights and withheld materials are not covered.",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "filename": "healthcare-friction-framework-en.pdf",
+      "bytes": 374584,
+      "sha256": "0be64a6f5de58a97ebfc135ccc645b765dd3d7e51b7d9af371e0b51f897fbd4e",
+      "status": "accepted",
+      "findings": [
+        "Review all PDF pages, metadata, annotations, attachments, scripts and third-party reuse rights.",
+        "PDF active/attached content requires review"
+      ],
+      "path": "public/network-tools/healthcare-friction-framework-en.pdf",
+      "reviewedOn": "2026-10-11",
+      "reason": "All seven pages rendered and inspected; no annotations, attachments, actions or scripts in the object tree. Composite non-individual paths, aggregate examples, not clinical scale.",
+      "reuseBasis": "On 2026-10-12 the owner confirmed public redistribution rights and licensed this exact unchanged original under CC BY 4.0. Credit Care in Farming Seasons / 殷子楚 Yin Zichu, link to source and license, retain notices and indicate changes. Other rights and withheld materials are not covered.",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "filename": "farming-health-calendar-zh.png",
+      "bytes": 1925058,
+      "sha256": "fb50aad028385bbb172259ef41eadb9bc790b67d35bfed2e33a85703b94256c2",
+      "status": "accepted",
+      "findings": [
+        "Inspect every image visually for identifying data, source rights and local-only instructions; inspect PNG metadata."
+      ],
+      "path": "public/network-tools/farming-health-calendar-zh.png",
+      "reviewedOn": "2026-10-11",
+      "reason": "Image and empty PNG metadata inspected; illustrated local tool, no resident identifiers; historical routes/medical content require local verification.",
+      "reuseBasis": "On 2026-10-12 the owner confirmed public redistribution rights and licensed this exact unchanged original under CC BY 4.0. Credit Care in Farming Seasons / 殷子楚 Yin Zichu, link to source and license, retain notices and indicate changes. Other rights and withheld materials are not covered.",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "filename": "health-guide-front-zh.png",
+      "bytes": 2098088,
+      "sha256": "1ab510cde3ce38d9262cafa75bd2d4526694cc03d87065ada1fc32948031782b",
+      "status": "accepted",
+      "findings": [
+        "Inspect every image visually for identifying data, source rights and local-only instructions; inspect PNG metadata."
+      ],
+      "path": "public/network-tools/health-guide-front-zh.png",
+      "reviewedOn": "2026-10-11",
+      "reason": "Image and empty PNG metadata inspected; illustrated local tool, no resident identifiers; historical routes/medical content require local verification.",
+      "reuseBasis": "On 2026-10-12 the owner confirmed public redistribution rights and licensed this exact unchanged original under CC BY 4.0. Credit Care in Farming Seasons / 殷子楚 Yin Zichu, link to source and license, retain notices and indicate changes. Other rights and withheld materials are not covered.",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "filename": "health-guide-back-zh.png",
+      "bytes": 2031846,
+      "sha256": "e7b7e7557012329babf76ce20c37470503bdd866227878fe1704bd00ec94de4e",
+      "status": "accepted",
+      "findings": [
+        "Inspect every image visually for identifying data, source rights and local-only instructions; inspect PNG metadata."
+      ],
+      "path": "public/network-tools/health-guide-back-zh.png",
+      "reviewedOn": "2026-10-11",
+      "reason": "Image and empty PNG metadata inspected; illustrated local tool, no resident identifiers; historical routes/medical content require local verification.",
+      "reuseBasis": "On 2026-10-12 the owner confirmed public redistribution rights and licensed this exact unchanged original under CC BY 4.0. Credit Care in Farming Seasons / 殷子楚 Yin Zichu, link to source and license, retain notices and indicate changes. Other rights and withheld materials are not covered.",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "filename": "navigation-card-front-zh.png",
+      "bytes": 1759811,
+      "sha256": "e2bf0006d10203468906a992ebf324b0522b5ac57746ace110ef7f0c81c88b94",
+      "status": "accepted",
+      "findings": [
+        "Inspect every image visually for identifying data, source rights and local-only instructions; inspect PNG metadata."
+      ],
+      "path": "public/network-tools/navigation-card-front-zh.png",
+      "reviewedOn": "2026-10-11",
+      "reason": "Image and empty PNG metadata inspected; illustrated local tool, no resident identifiers; historical routes/medical content require local verification.",
+      "reuseBasis": "On 2026-10-12 the owner confirmed public redistribution rights and licensed this exact unchanged original under CC BY 4.0. Credit Care in Farming Seasons / 殷子楚 Yin Zichu, link to source and license, retain notices and indicate changes. Other rights and withheld materials are not covered.",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "filename": "navigation-card-back-zh.png",
+      "bytes": 1889628,
+      "sha256": "8c1674a1b0c95024d4eb522290f5bdfca0bcb185a1601263e6d1f9cd103f1fc8",
+      "status": "accepted",
+      "findings": [
+        "Inspect every image visually for identifying data, source rights and local-only instructions; inspect PNG metadata."
+      ],
+      "path": "public/network-tools/navigation-card-back-zh.png",
+      "reviewedOn": "2026-10-11",
+      "reason": "Image and empty PNG metadata inspected; illustrated local tool, no resident identifiers; historical routes/medical content require local verification.",
+      "reuseBasis": "On 2026-10-12 the owner confirmed public redistribution rights and licensed this exact unchanged original under CC BY 4.0. Credit Care in Farming Seasons / 殷子楚 Yin Zichu, link to source and license, retain notices and indicate changes. Other rights and withheld materials are not covered.",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "filename": "bus-care-card-zh.png",
+      "bytes": 1729524,
+      "sha256": "cb439b6754e48f2fbf71c3b670cdaa2e499c49f6f33d57a03e3885fbee0f8411",
+      "status": "accepted",
+      "findings": [
+        "Inspect every image visually for identifying data, source rights and local-only instructions; inspect PNG metadata."
+      ],
+      "path": "public/network-tools/bus-care-card-zh.png",
+      "reviewedOn": "2026-10-11",
+      "reason": "Image and empty PNG metadata inspected; illustrated local tool, no resident identifiers; historical routes/medical content require local verification.",
+      "reuseBasis": "On 2026-10-12 the owner confirmed public redistribution rights and licensed this exact unchanged original under CC BY 4.0. Credit Care in Farming Seasons / 殷子楚 Yin Zichu, link to source and license, retain notices and indicate changes. Other rights and withheld materials are not covered.",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "filename": "travel-reminder-zh.png",
+      "bytes": 1704764,
+      "sha256": "d95bcded4da4923174acbbbc6a9d9760b40d86fb669c455966c7e130b1a8cc73",
+      "status": "accepted",
+      "findings": [
+        "Inspect every image visually for identifying data, source rights and local-only instructions; inspect PNG metadata."
+      ],
+      "path": "public/network-tools/travel-reminder-zh.png",
+      "reviewedOn": "2026-10-11",
+      "reason": "Image and empty PNG metadata inspected; illustrated local tool, no resident identifiers; historical routes/medical content require local verification.",
+      "reuseBasis": "On 2026-10-12 the owner confirmed public redistribution rights and licensed this exact unchanged original under CC BY 4.0. Credit Care in Farming Seasons / 殷子楚 Yin Zichu, link to source and license, retain notices and indicate changes. Other rights and withheld materials are not covered.",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "filename": "journey-maps-overview-zh.png",
+      "bytes": 1964450,
+      "sha256": "90895a45b539c354f27dabd133259fdfca9cacc732331850e14b36750767108f",
+      "status": "excluded",
+      "findings": [
+        "Inspect every image visually for identifying data, source rights and local-only instructions; inspect PNG metadata."
+      ],
+      "path": "public/network-tools/journey-maps-overview-zh.png",
+      "reviewedOn": "2026-10-11",
+      "reason": "Original contains interview quotations/record identifiers or references to them; reuse permission for those excerpts not established. Provide a quote-free public version or confirm rights before inclusion.",
+      "reuseBasis": "Pending review; not copied or downloadable."
+    },
+    {
+      "filename": "journey-map-a-zh.png",
+      "bytes": 1864031,
+      "sha256": "fabccad7edf52a5c94e66878af1773bd61f0b89bb115819edde74227b58ffba0",
+      "status": "excluded",
+      "findings": [
+        "Inspect every image visually for identifying data, source rights and local-only instructions; inspect PNG metadata."
+      ],
+      "path": "public/network-tools/journey-map-a-zh.png",
+      "reviewedOn": "2026-10-11",
+      "reason": "Original contains interview quotations/record identifiers or references to them; reuse permission for those excerpts not established. Provide a quote-free public version or confirm rights before inclusion.",
+      "reuseBasis": "Pending review; not copied or downloadable."
+    },
+    {
+      "filename": "journey-map-b-zh.png",
+      "bytes": 1917756,
+      "sha256": "14943cd0cff4325dcb3fdfc3f7036c146d656debf524cec98d9eb69367975570",
+      "status": "excluded",
+      "findings": [
+        "Inspect every image visually for identifying data, source rights and local-only instructions; inspect PNG metadata."
+      ],
+      "path": "public/network-tools/journey-map-b-zh.png",
+      "reviewedOn": "2026-10-11",
+      "reason": "Original contains interview quotations/record identifiers or references to them; reuse permission for those excerpts not established. Provide a quote-free public version or confirm rights before inclusion.",
+      "reuseBasis": "Pending review; not copied or downloadable."
+    },
+    {
+      "filename": "journey-map-c-zh.png",
+      "bytes": 1831230,
+      "sha256": "935246ac34c920737e712ee761fde8ad724de71cabff31ef635dbb92b63c53b1",
+      "status": "excluded",
+      "findings": [
+        "Inspect every image visually for identifying data, source rights and local-only instructions; inspect PNG metadata."
+      ],
+      "path": "public/network-tools/journey-map-c-zh.png",
+      "reviewedOn": "2026-10-11",
+      "reason": "Original contains interview quotations/record identifiers or references to them; reuse permission for those excerpts not established. Provide a quote-free public version or confirm rights before inclusion.",
+      "reuseBasis": "Pending review; not copied or downloadable."
+    },
+    {
+      "filename": "journey-map-d-zh.png",
+      "bytes": 1702441,
+      "sha256": "e1bb1846a27bf103a69e5e25136300acc3f06a2fbc019500e45f49a9aac74655",
+      "status": "excluded",
+      "findings": [
+        "Inspect every image visually for identifying data, source rights and local-only instructions; inspect PNG metadata."
+      ],
+      "path": "public/network-tools/journey-map-d-zh.png",
+      "reviewedOn": "2026-10-11",
+      "reason": "Original contains interview quotations/record identifiers or references to them; reuse permission for those excerpts not established. Provide a quote-free public version or confirm rights before inclusion.",
+      "reuseBasis": "Pending review; not copied or downloadable."
+    }
+  ]
+}

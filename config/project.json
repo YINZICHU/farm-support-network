@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "projectName": "农忙支援 Network",
+  "projectNameEn": "Farm Support Network",
+  "contactEmail": null,
+  "mainSiteUrl": null,
+  "villages": [
+    { "id": "example-a", "zh": "示例村甲", "en": "Example Village A" },
+    { "id": "example-b", "zh": "示例村乙", "en": "Example Village B" }
+  ]
+}

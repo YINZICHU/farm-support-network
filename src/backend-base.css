@@ -1,0 +1,15 @@
+:root { font-family: "Microsoft YaHei", "PingFang SC", system-ui, sans-serif; color: #164b3f; background: #f9f7ee; font-synthesis: none; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+button, input, select, textarea { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; }
+button:disabled { cursor: wait; }
+a { color: inherit; }
+:focus-visible { outline: 3px solid #ba8038; outline-offset: 4px; }
+.skip-link { position: absolute; left: 16px; top: -100px; z-index: 10000; padding: 12px; background: #fffdf6; }
+.skip-link:focus { top: 16px; }
+.backend-unavailable { max-width: 700px; margin: 10vh auto; padding: 28px; line-height: 1.9; overflow-wrap: anywhere; }
+.backend-unavailable h1 { font-size: clamp(26px, 5vw, 38px); }
+.backend-unavailable a { display: flex; width: fit-content; margin-top: 22px; min-height: 44px; align-items: center; }
+@media(prefers-reduced-motion:reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }

@@ -1,0 +1,48 @@
+name: Network template verification only
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: "24.19.0"
+          package-manager-cache: false
+      - uses: pnpm/action-setup@ea17c68df8912ef543352723c149a84f56e3d413 # v6.1.0
+        with:
+          version: "11.19.0"
+          run_install: false
+          cache: false
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm test
+      - name: Verify bilingual lifecycle and public tools/private API separation
+        run: node --test tests/network-acceptance.test.mjs tests/network-tools-routes.test.mjs
+      - run: node tests/configured-suite.mjs
+      - run: pnpm build
+      - run: pnpm check:release
+      - run: pnpm audit --prod
+      - name: Verify isolated recovery under a 512 MiB Linux container limit
+        shell: bash
+        run: |
+          set -euo pipefail
+          taskWarnings="$(docker info --format '{{json .Warnings}}')"
+          if [[ "$taskWarnings" == *"No swap limit support"* ]]; then
+            echo 'Runner cannot prove the required memory/swap limits.' >&2
+            exit 1
+          fi
+          docker pull node:24.19.0-bookworm-slim
+          taskImage="$(docker image inspect node:24.19.0-bookworm-slim --format '{{.Id}}')"
+          docker image inspect "$taskImage" --format '{{json .RepoDigests}}'
+          taskContainerDir="$(mktemp -d "$RUNNER_TEMP/farm-container.XXXXXX")"
+          git archive HEAD | tar -x -C "$taskContainerDir"
+          docker run --rm --volume "$taskContainerDir:/app" --workdir /app "$taskImage" sh -c 'npm install --global pnpm@11.19.0 && pnpm install --frozen-lockfile'
+          docker run --rm --network=none --memory=512m --memory-swap=512m --cpus=1 --read-only --tmpfs /tmp:rw,nosuid,nodev,size=256m --volume "$taskContainerDir:/app:ro" --workdir /app "$taskImage" node --max-old-space-size=256 tests/maintenance-workload.mjs

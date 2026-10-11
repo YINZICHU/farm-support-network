@@ -1,0 +1,8 @@
+import { projectConfig, validateProjectConfig } from './project-config.js';
+const escapeHtml = value => value.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+
+export function publicFallback(locale, project = projectConfig) {
+  const p = validateProjectConfig(project);
+  const en = locale === 'en';
+  return `<noscript><section lang="${en ? 'en' : 'zh-CN'}" class="fs-public"><h1>${en ? 'Farm-work support' : '农忙支援'}</h1><p>${en ? 'Local fictional preview. No real services are available. Residents do not need accounts: contact a verified village coordinator by phone or in person when services are approved. Invited adult coordinators handle registration and arrangements.' : '本地虚构预览，不提供真实服务。居民无需账号；服务获批准开放后，可通过电话或当面联系经过核实的本村负责人，由受邀成年负责人登记并安排。'}</p><p>${en ? 'Service availability and contacts cannot be verified without JavaScript. No placeholder telephone numbers are provided.' : '未开启脚本，无法核实实时受理状态和联系人。不提供可拨打的占位电话。'}</p><h2>${en ? 'Configured villages' : '配置村庄'}</h2><ul>${p.villages.map(v => `<li>${escapeHtml(v[en ? 'en' : 'zh'])}</li>`).join('')}</ul><p>${en ? 'Only verified light tasks: sorting, packing and short farm-work care. Residents and providers agree fees and settle directly; this website does not process payments or provide medical care.' : '仅安排经过核实的轻量分拣、包装或短时田间照管；农户和提供方直接谈价、直接结算，平台不收款，也不提供诊疗。'}</p><p>${en ? 'For an emergency in China, call 120 immediately.' : '紧急情况请立即拨打120。'}</p><a href="tel:120">${en ? 'Call 120' : '拨打120'}</a><p>${p.mainSiteUrl ? `<a href="${escapeHtml(p.mainSiteUrl)}">${en ? 'Project home' : '项目首页'}</a> · ` : ''}<a href="/farm-support/manage/">${en ? 'Coordinator login requires JavaScript' : '负责人登录需开启脚本'}</a></p></section></noscript>`;
+}

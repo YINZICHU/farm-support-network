@@ -1,0 +1,27 @@
+{
+  "name": "care-in-farming-toolkit",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "24.19.0" },
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "start": "node scripts/farm-support/production.mjs",
+    "provision": "node scripts/farm-support/provision.mjs --start",
+    "dev": "vite --host 127.0.0.1 --port 4178",
+    "demo": "node scripts/farm-support/demo.mjs",
+    "test": "node --import ./tests/cross-village-setup.mjs --test tests/*.test.mjs tests/farm-support/*.test.mjs",
+    "build": "vite build --configLoader runner",
+    "check:release": "node scripts/check-release.mjs"
+  },
+  "dependencies": {
+    "better-auth": "1.7.7",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "5.0.4",
+    "vite": "6.4.4"
+  }
+}
